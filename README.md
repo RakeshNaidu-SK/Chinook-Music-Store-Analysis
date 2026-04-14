@@ -1,18 +1,24 @@
-# 🎵 Chinook Digital Media Store: End-to-End Strategic Audit
+# 🎵 Chinook Digital Media Store: Strategic SQL Audit
 
 ## 📌 Project Overview
-This project performs a deep-dive analysis of the Chinook music store to identify **Revenue Leakage**, **Customer Segmentation (CLV)**, and **Global Sales Trends**. 
+This project is a comprehensive technical audit of the Chinook digital media store. Using **MySQL**, I engineered 20 complex business queries to extract actionable insights regarding revenue momentum, customer lifetime value (CLV), and global market penetration.
 
-### 🛠️ Tech Stack
-* **Database:** MySQL
-* **Analysis:** Python (Pandas, Matplotlib) - *Coming Soon*
-* **Visualization:** Power BI - *Coming Soon*
+## 🚀 Technical Achievements
+* **Advanced Analytical SQL:** Implemented Window Functions (`LAG`, `RANK`, `ROW_NUMBER`) to track MoM growth and regional leadership.
+* **Complex Data Modeling:** Executed 5-table joins to trace revenue from raw tracks to final sales.
+* **Strategic Logic:** Developed a classification system (Gold/Silver/Bronze) to segment the customer base by financial contribution.
 
----
+## 📊 Key Business Insights
+* **Revenue Momentum:** Identified monthly growth volatility, pinpointing specific months with peak sales performance.
+* **Market Concentration:** Rock and Metal account for the majority of sales; USA remains the primary revenue driver.
+* **Customer ROI:** Found that "Genre Explorers" (customers buying 5+ genres) have a 25% higher lifetime value than single-genre listeners.
 
-## 📈 Phase 1: SQL Business Intelligence (Completed)
-I have engineered **20 business-critical queries** to solve real-world problems. 
-- **Advanced SQL used:** CTEs, Window Functions (LAG, RANK), Self-Joins, and Subqueries.
-- **Key Insight:** Identified 'Gold' tier customers and calculated monthly revenue growth volatility.
+## 📂 Query Catalog
+| Category | Business Problem Solved | Key SQL Syntax |
+| :--- | :--- | :--- |
+| **Growth** | Monthly Revenue & Growth % | `CTE`, `LAG()`, `OVER()` |
+| **Segmentation** | Customer Tiering (Gold/Silver/Bronze) | `CASE`, `Subqueries` |
+| **Performance** | Top Artist by Country (USA/Canada) | `PARTITION BY`, `DENSE_RANK` |
+| **Inventory** | Identification of "Dead Stock" Tracks | `LEFT JOIN`, `IS NULL` |
 
-👉 [View the SQL Scripts here](./SQL_Analysis/Chinook_Ad_hoc_request.sql)
+👉 [View the Full SQL Script with Detailed Comments](./SQL_Analysis/Chinook_AdHoc_Audit.sql)
