@@ -19,7 +19,7 @@ This project is a comprehensive technical audit of the Chinook digital media sto
 | **Growth** | Monthly Revenue & Growth % | `CTE`, `LAG()`, `OVER()` |
 | **Segmentation** | Customer Tiering (Gold/Silver/Bronze) | `CASE`, `Subqueries` |
 | **Performance** | Top Artist by Country (USA/Canada) | `PARTITION BY`, `DENSE_RANK` |
-| **Inventory** | Identification of "Dead Stock" Tracks | `LEFT JOIN`, `IS NULL` |
+| **Inventory** | Identification of "Dead Stock" Tracks | `LEFT JOIN`, `INNER JOIN`,`IS NULL` |
 
 ---
 ### 👉 [View the Full SQL Script with Detailed Comments](./SQL_Analysis/Chinook_Ad_hoc_request.sql)
