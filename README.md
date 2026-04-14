@@ -22,7 +22,7 @@ This project is a comprehensive technical audit of the Chinook digital media sto
 | **Inventory** | Identification of "Dead Stock" Tracks | `LEFT JOIN`, `IS NULL` |
 
 ---
-### 👉 [View the Full SQL Script with Detailed Comments](./SQL_Analysis/Chinook_AdHoc_Audit.sql)
+### 👉 [View the Full SQL Script with Detailed Comments](./SQL_Analysis/Chinook_Ad_hoc_request.sql)
 ---
 
 ## 🛡️ Scaling & Optimization Recommendations
